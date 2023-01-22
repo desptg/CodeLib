@@ -2,8 +2,8 @@
 #include <bcm2835.h>
 #include <unistd.h>
 #include <stdlib.h>
-// #include <sys/types.h>
-// #include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 #include <syslog.h>
 
 #define FAN_PIN RPI_BPLUS_GPIO_J8_12                     // Defined meinen Lüfter Pin
